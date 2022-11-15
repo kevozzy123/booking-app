@@ -1,9 +1,37 @@
-.btn-box {
-    position: absolute;
+.container{
+    background-color: var(--container-color);
+    height: 120px;
+    width: 100vw;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: var(--container-color);
+    margin: 15px 0;
+    box-shadow: 0 0 6px rgb(173, 173, 173);
+    border-radius: 12px;
+}
+
+.input-item {
+    padding: 20px;
+    width: 150px;
+}
+
+.input-item div {
+    font-weight: 800;
 }
 
 .search-btn{
     background-color: var(--first-color);
+    font-weight: 800;
     border: none;
+    height: 60px;
+    padding: 10px 20px;
+    width: 150px;
+    color: white;
+    font-size: 1.25rem;
+    border-radius: 0 12px 12px 0;
 }
 

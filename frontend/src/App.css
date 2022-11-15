@@ -5,9 +5,9 @@
 }
 
 :root{
-  --hue-color:25;    
+  --hue-color:24;    
 
-  --first-color:hsl(var(--hue-color), 100%, 52%);
+  --first-color:hsl(var(--hue-color), 100%, 58%);
   --first-color-second:hsl(var(--hue-color), 69%, 61%);
   --first-color-alt:hsl(var(--hue-color), 77%, 35%);
   --first-color-lighter:hsl(var(--hue-color), 92%, 85%);
@@ -15,7 +15,7 @@
   --title-color:hsl(var(--hue-color), 8%, 15%);
   --title-color-lighter:hsl(var(--hue-color), 69%, 61%);
   --body-color:hsl(var(--hue-color),60%,99%);
-  --container-color:rgb(232, 232, 232);
+  --container-color:rgb(238, 238, 238);
   --scroll-bar-color:hsl(var(--hue-color), 100%, 90%);
   --scroll-thum-color:hsl(var(--hue-color), 30%, 50%);
 

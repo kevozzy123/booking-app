@@ -3,32 +3,26 @@ import style from './searchBar.module.css'
 
 function SearchBar() {
   return (
-
-
-      {/* <ul>
+      <ul className={style['nav-bar']}>
         <li className={style['input-item']}>
           <i></i>
           <div>Location</div>
-          <span></span>
+          <span>asfsdf</span>
         </li>
         <li className={style['input-item']}>
           <i></i>
           <div>Check in</div>
-          <span></span>
+          <span>sdffds</span>
         </li>
         <li className={style['input-item']}>
           <i></i>
           <div>Check out</div>
-            <button className={style['search-btn']}>Search</button>
-
-          <span></span>
+          <span>sdffasd</span>
         </li>
         <li className={style['btn-box']}>
-            <button className={style['search-btn']}>Search</button>
+          <button className={style['search-btn']}>Search</button>
         </li>
-      </ul> */}
-
-    
+      </ul>
   )
 }
 
