@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
 import HomePage from './components/homePage/HomePage'
-import SearchBar from './components/searchBar/SearchBar';
+import Header from './Header/Header';
 
 function App() {
   return (
     <div>
-      <SearchBar />
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomePage />} />
