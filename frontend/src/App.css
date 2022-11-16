@@ -19,6 +19,8 @@
   --scroll-bar-color:hsl(var(--hue-color), 100%, 90%);
   --scroll-thum-color:hsl(var(--hue-color), 30%, 50%);
 
+  --border-radius: 8px;
+
   --header-height:3rem;
   --big-font-size:2rem;
   --h1-font-size:1.5rem;
@@ -60,7 +62,6 @@ body{
 }
 
 h1,h2,h3,h4{
-  color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
 

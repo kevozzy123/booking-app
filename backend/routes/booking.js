@@ -24,7 +24,7 @@ async function findListings(client, resultsLimit) {
 }
 
 router.get('/hotel', async(req, res) => {
-    const result = await Booking.find({}).limit(5)
+    const result = await Booking.find({}).limit(16)
     res.json({
         state: true,
         result: result

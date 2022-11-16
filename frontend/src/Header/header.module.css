@@ -4,6 +4,11 @@
     align-items: center;
     padding: 1rem 3rem;
     position: relative;
+    background-color: var(--first-color);
+}
+
+.nav h3{
+    color: white;
 }
 
 .nav ul{
@@ -14,10 +19,7 @@
     font-weight: 800;
     justify-content: space-between;
     min-width: 50vw;
-}
-
-.left-section h3{
-    color: var(--first-color);
+    cursor: pointer;
 }
 
 .line{
