@@ -19,7 +19,7 @@
   --scroll-bar-color:hsl(var(--hue-color), 100%, 90%);
   --scroll-thum-color:hsl(var(--hue-color), 30%, 50%);
 
-  --border-radius: 8px;
+  --border-radius: 1rem;
 
   --header-height:3rem;
   --big-font-size:2rem;
